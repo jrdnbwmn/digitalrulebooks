@@ -1,21 +1,143 @@
-<div class="basis-64 w-64 grow-0 shrink-0 border-r pl-4 pr-4 pt-4 pb-4 overflow-auto">
+<div class="basis-72 w-72 grow-0 shrink-0 border-r pl-4 pr-4 pt-4 pb-4 overflow-auto">
     <nav class="flex flex-col h-full">
 
         <!-- Top title -->
-        <a class="block rounded-lg p-3" href="/">
+        <a class="block rounded-lg p-3">
             <div class="flex">
                 <div class="basis-9 text-red-600">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
                     </svg>
                 </div>
-                <div class="grow">Jordan Bowman</div>
+                <div class="grow">Dune Imperium</div>
             </div>
         </a>
 
+        <div class="mt-8 px-2">
+            <input type="text" name="username" id="username" class="block w-full indent-2 border border-slate-300 rounded-lg bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0" placeholder="Search">
+        </div>
+
         <!-- Pages -->
+        <div class="mt-8 px-2">
+            <div class="block rounded-lg text-slate-700">
+                <div class="flex">
+                    <div class="basis-7 w-7 py-2 px-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 6.878V6a2.25 2.25 0 012.25-2.25h7.5A2.25 2.25 0 0118 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 004.5 9v.878m13.5-3A2.25 2.25 0 0119.5 9v.878m0 0a2.246 2.246 0 00-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0121 12v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6c0-.98.626-1.813 1.5-2.122" />
+                        </svg>
+                    </div>
+                    <div class="grow rounded-lg px-3 py-2">Setup</div>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Main setup</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-7 px-2">
+            <div class="block rounded-lg text-slate-700">
+                <div class="flex">
+                    <div class="basis-7 w-7 py-2 px-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                        </svg>
+                    </div>
+                    <div class="grow rounded-lg px-3 py-2">Rounds</div>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Phase 1: Round start</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Phase 2: Player turns</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Phase 3: Combat</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Phase 4: Makers</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Phase 5: Recall</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-7 px-2">
+            <div class="block rounded-lg text-slate-700">
+                <div class="flex">
+                    <div class="basis-7 w-7 py-2 px-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                    </div>
+                    <div class="grow rounded-lg px-3 py-2">Detailed Rules</div>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Deploying troops</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Intrigue cards</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Control bonuses</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Factions</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Deck building</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">Tech tiles</a>
+                </div>
+            </div>
+            <div class="block rounded-lg">
+                <div class="flex">
+                    <div class="basis-7 w-7 p-1"></div>
+                    <a class="grow rounded-lg px-3 py-2 hover:bg-slate-100 duration-200" href="/stack/">The Shipping Track</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pages
         <div class="mt-8">
-            <a class="block rounded-lg p-3 border border-transparent hover:border-slate-400 hover:bg-slate-50 duration-200 mb-1" href="/">
+            <a class="block rounded-lg p-3 border border-transparent hover:border-slate-400  duration-200 mb-1" href="/">
                 <div class="flex">
                     <div class="basis-9">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -38,9 +160,6 @@
             <a class="block rounded-lg p-3 border border-transparent hover:border-slate-400 hover:bg-slate-50 duration-200 mb-1" href="/bookmarks">
                 <div class="flex">
                     <div class="basis-9">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
-                        </svg> -->
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9" />
                         </svg>
@@ -51,18 +170,11 @@
             <a class="block rounded-lg p-3 border border-transparent hover:border-slate-400 hover:bg-slate-50 duration-200" href="/">
                 <div class="flex">
                     <div class="basis-9">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
-                        </svg> -->
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
-                        </svg> -->
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
                         </svg>
                     </div>
                     <div class="grow">Field Guides</div>
-                    <!-- <div class="grow">Labs</div> -->
                 </div>
             </a>
             <a class="block rounded-lg p-3 border border-transparent hover:border-slate-400 hover:bg-slate-50 duration-200" href="/">
@@ -96,9 +208,9 @@
                     <div class="grow">Newsletter</div>
                 </div>
             </a>
-        </div>
+        </div> -->
 
-        <!-- Outbound links -->
+        <!-- Outbound links
         <div class="mt-8 grow">
             <div class="p-3 text-slate-500">
                 Links
@@ -136,16 +248,16 @@
                     <div class="grow">LinkedIn</div>
                 </div>
             </a>
-        </div>
+        </div> -->
 
-        <!-- Bottom -->
+        <!-- Bottom
         <div class="mt-8">
             <div class="inline-block p-3">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
                 </svg>
             </div>
-        </div>
+        </div> -->
 
     </nav>
 </div>
